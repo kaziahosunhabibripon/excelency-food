@@ -1,0 +1,180 @@
+{
+  "TabTitles": {
+    "title": "Excellency Catering Restaurant Sweets | Sweet Food Delivery"
+  },
+
+  "Topbar": {
+    "location": "Al Rashidiya 1 - Ajman - United Arab Emirates",
+    "followUs": "Follow Us"
+  },
+  "Hero": {
+    "welcome": "WELCOME TO",
+    "second": "EXCELLENCY",
+    "headline": "Delicious Food & Wonderful Eating Experience",
+    "subline": "We Serve Food, Harmony, & Smile",
+    "smile": "for Everyone.",
+    "button": "find foods"
+  },
+  "Country": {
+    "title": "Our",
+    "subtitle": "Popular",
+    "secondarySubTitle": "Category"
+  },
+  "Topselling": {
+    "title": "Best",
+    "subtitle": "Sellings",
+    "secondarySubTitle": "Foods",
+    "dialog": "Top Selling"
+  },
+  "filterOptions": {
+    "cat1": "Bangladeshi",
+    "cat2": "Indian",
+    "cat3": "Arabian",
+    "cat4": "Pakistani"
+  },
+  "reset": { "reset": "Reset" },
+  "food": {
+    "secondaryTitle": "Today special"
+  },
+  "popular": {
+    "title": "Most",
+    "subtitle": "Popular",
+    "secondarySubTitle": "Foods"
+  },
+  "Recently": {
+    "title": "Recently",
+    "subtitle": "View",
+    "secondarySubTitle": "Foods",
+    "dialog": "Recently View"
+  },
+  "offer": {
+    "type": "FRIDAY OFFERs",
+    "amount": "Discounts 50% On",
+    "items": "Food items.",
+    "title": "ORDER NOW"
+  },
+  "hurryUp": {
+    "title": "Weekly",
+    "subtitle": "Discount",
+    "secondarySubTitle": "Foods",
+    "dialog": "Hurry Up Deals",
+    "cart": "ADD TO CART",
+    "currency": "AED",
+    "offer": "Offers ends in",
+    "Seconds": "Seconds",
+    "Minutes": "Minutes",
+    "Hours": "Hours",
+    "Days": "Days"
+  },
+  "reserve": {
+    "title": "RESERVE",
+    "title1": "A TABLE",
+    "mainTitle": "Discover our New Menu",
+    "button": " Submit"
+  },
+  "popularFood": {
+    "title": "Most",
+    "subtitle": "Selling",
+    "secondarySubTitle": "Categories",
+    "try": "Try It Before It's Gone"
+  },
+
+  "stats": {
+    "new": {
+      "label": "NEW",
+      "subLabel": "COOL PROJECTS"
+    },
+    "total": {
+      "label": "TOTAL",
+      "subLabel": "AWARDS WIN"
+    },
+    "unique": {
+      "label": "UNIQUE",
+      "subLabel": "FOOD SPECIALITIES"
+    },
+    "hard": {
+      "label": "HARD",
+      "subLabel": "TEAM MEMBERS"
+    }
+  },
+  "brand": {
+    "title": "Our",
+    "subtitle": "Valuable",
+    "secondarySubTitle": "Partner"
+  },
+  "footer": {
+    "description": "Phasellus ultricies aliquam volutpat elementum per lacinia tempus, a blandit condimentum tacitus mollis.",
+    "quickLinks": "Quick Links",
+    "groups": "Groups",
+    "contactUs": "Contact Us",
+    "mondayFriday": "Monday - Friday: 9am - 4pm",
+    "saturday": "Saturday: 9am - 12pm",
+    "emailPlaceholder": "Your email address",
+    "agreePrivacy": "I agree with the Privacy Policy",
+    "developedBy": "Developed by:",
+    "copyright": "Copyright © 2025 Excellency Catering Restaurant Sweets All Rights Reserved.",
+    "terms": "Terms & Condition",
+    "privacy": "Privacy Policy",
+    "noGroups": "No groups found.",
+    "rapid": "Rapid"
+  },
+  "aboutus": {
+    "about": "About Us",
+    "story": "Our",
+    "story1": "Story",
+    "values": "Our",
+    "values1": "Values",
+    "team": "Meet",
+    "team1": "Our",
+    "team2": "Team",
+    "testimonials": "What Our Customers Say",
+    "cta_title": "Ready to Experience Excellency?",
+    "cta_subtitle": "Join us in our culinary journey and discover amazing local restaurants.",
+    "order_now": "Order Now",
+    "growing_years": "Growing Years",
+    "type_of_products": "Type of Products",
+    "sales_outlets": "Sales Outlets",
+    "annual_sales": "Annual Sales",
+
+    "title": "About",
+    "subtitle": "Excellency",
+    "componentTitle": "About us",
+    "writer": "Alex Thompson, Food Enthusiast",
+    "quoto": "Excellency has transformed my dining experience. The variety and quality of food available is unmatched, and their service is lways top-notch"
+  },
+  "menu": {
+    "componentTitle": "Menu",
+    "title": "Menu"
+  },
+  "companybrand": {
+    "brandName": "Excellency Catering Restaurant Sweets"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "componentTitle": "Gallery",
+    "discoverExcellency": "Discover Excellency Food Items",
+    "title1": "Discover",
+    "subtitle": "Our",
+    "secondarySubTitle": "category"
+  },
+  "contactus": {
+    "title": "Contact",
+    "subtitle": "us",
+    "componentTitle": "Contact us"
+  },
+  "contactForm": {
+    "getIn": "Get In",
+    "touch": "Touch",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "guest": "Guest",
+    "guest1": "1 Guest",
+    "guest2": "2 Guests",
+    "guest3": "3 Guests",
+    "guest4plus": "4+ Guests",
+    "message": "Write your message here...",
+    "terms": "Collaboratively formulate principle capital. Progressively evolve user",
+    "submit": "Order your food"
+  }
+}

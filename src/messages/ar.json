@@ -1,0 +1,193 @@
+{
+  "TabTitles": {
+    "title": "مطعم إكسيلنسي للحلويات والتموين | توصيل الطعام الحلو"
+  },
+
+  "Topbar": {
+    "location": "الرشيدية 1 - عجمان - الإمارات العربية المتحدة",
+    "followUs": "تابعنا"
+  },
+  "Hero": {
+    "welcome": "مرحبًا بك في",
+    "second": "إكسلنسي",
+    "headline": "طعام لذيذ وتجربة أكل رائعة",
+    "subline": "نقدم الطعام، والتناغم، والابتسامة",
+    "smile": "لكل شخص.",
+    "button": "ابحث عن الأطعمة"
+  },
+  "Country": {
+    "title": "لدينا",
+    "subtitle": "الأكثر شهرة",
+    "secondarySubTitle": "الفئة"
+  },
+  "Topselling": {
+    "title": "الأفضل",
+    "subtitle": "الأكثر مبيعًا",
+    "secondarySubTitle": "الأطعمة",
+    "dialog": "الأكثر مبيعًا"
+  },
+
+  "filterOptions": {
+    "cat1": "بنغلاديشي",
+    "cat2": "هندي",
+    "cat3": "عربي",
+    "cat4": "باكستاني"
+  },
+
+  "reset": {
+    "reset": "إعادة تعيين"
+  },
+  "food": {
+    "secondaryTitle": "عرض اليوم الخاص"
+  },
+  "popular": {
+    "title": "الأكثر",
+    "subtitle": "رواجًا",
+    "secondarySubTitle": "الطعام"
+  },
+
+  "Recently": {
+    "title": "مؤخرًا",
+    "subtitle": "عرض",
+    "secondarySubTitle": "الأطعمة",
+    "dialog": "العناصر التي تم عرضها مؤخرًا"
+  },
+
+  "offer": {
+    "type": "عروض يوم الجمعة",
+    "amount": "خصم 50% على",
+    "items": "منتجات الطعام.",
+    "title": "اطلب الآن"
+  },
+
+  "hurryUp": {
+    "title": "عروض",
+    "subtitle": "الخصم الأسبوعي",
+    "secondarySubTitle": "على الأطعمة",
+    "dialog": "سارع إلى العروض",
+    "cart": "أضف إلى السلة",
+    "currency": "درهم",
+    "offer": "تنتهي العروض خلال",
+    "Seconds": "ثوانٍ",
+    "Minutes": "دقائق",
+    "Hours": "ساعات",
+    "Days": "أيام"
+  },
+  "reserve": {
+    "title": "حجز",
+    "title1": "طاولة",
+    "mainTitle": "اكتشف قائمتنا الجديدة",
+    "button": "إرسال"
+  },
+  "popularFood": {
+    "title": "الأكثر",
+    "subtitle": "مبيعًا",
+    "secondarySubTitle": "فئات",
+    "try": "جرّبه قبل أن يختفي"
+  },
+
+  "stats": {
+    "new": {
+      "label": "جديد",
+      "subLabel": "مشاريع رائعة"
+    },
+    "total": {
+      "label": "مجموع",
+      "subLabel": "الجوائز المحققة"
+    },
+    "unique": {
+      "label": "فريدة",
+      "subLabel": "تخصصات الطعام"
+    },
+    "hard": {
+      "label": "فريق",
+      "subLabel": "الأعضاء"
+    }
+  },
+
+  "brand": {
+    "title": "شركاؤنا",
+    "subtitle": "القيمون",
+    "secondarySubTitle": "الشركاء"
+  },
+  "footer": {
+    "description": "فاسيليس ألترايسيس أليكوام فولبوت إليمينتوم بير لاتشينيا تيمبوس، بلانديت تاكيتوس موليس.",
+    "quickLinks": "روابط سريعة",
+    "groups": "المجموعات",
+    "contactUs": "اتصل بنا",
+    "mondayFriday": "الإثنين - الجمعة: 9 صباحًا - 4 مساءً",
+    "saturday": "السبت: 9 صباحًا - 12 مساءً",
+    "emailPlaceholder": "بريدك الإلكتروني",
+    "agreePrivacy": "أوافق على سياسة الخصوصية",
+    "developedBy": "تم التطوير بواسطة:",
+    "copyright": "حقوق النشر © 2025 إكسلنسي كاترينغ جميع الحقوق محفوظة.",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية",
+    "noGroups": "لا توجد مجموعات.",
+    "rapid": "رابيد"
+  },
+  "aboutus": {
+    "about": "معلومات عنا",
+    "story": "قصتنا",
+    "story1": "من نحن",
+    "values": "قيمنا",
+    "values1": "الرؤية",
+    "team": "تعرف على",
+    "team1": "فريق",
+    "team2": "العمل",
+    "testimonials": "ماذا يقول عملاؤنا",
+    "cta_title": "هل أنت مستعد لتجربة التميز؟",
+    "cta_subtitle": "انضم إلينا في رحلتنا الطهوية واكتشف مطاعم محلية مذهلة.",
+    "order_now": "اطلب الآن",
+    "growing_years": "سنوات النمو",
+    "type_of_products": "أنواع المنتجات",
+    "sales_outlets": "نقاط البيع",
+    "annual_sales": "المبيعات السنوية",
+    "quality": "الجودة",
+    "community": "المجتمع",
+    "innovation": "الابتكار",
+    "quality_desc": "نحن ملتزمون بتقديم وجبات وخدمات عالية الجودة.",
+    "community_desc": "ندعم المطاعم المحلية ونعزز روح المجتمع.",
+    "innovation_desc": "نبتكر باستمرار لتحسين تجربة توصيل الطعام.",
+    "title": "حول",
+    "subtitle": "التميز",
+    "componentTitle": "معلومات عنا",
+    "writer": "أليكس طومسون، عاشق الطعام",
+    "quoto": "لقد غيّرت إكسيلنسي تجربتي في تناول الطعام. تنوع وجودة الطعام المتاحين لا مثيل لهما، وخدمتهم دائمًا على أعلى مستوى!"
+  },
+  "menu": {
+    "componentTitle": "القائمة",
+    "title": "القائمة"
+  },
+  "companybrand": {
+    "brandName": "التميز للتموين والمطاعم والحلويات"
+  },
+  "gallery": {
+    "title": "معرض الصور",
+    "componentTitle": "معرض الصور",
+    "discoverExcellency": "اكتشف أصناف طعام التميز",
+    "title1": "اكتشف",
+    "subtitle": "لدينا",
+    "secondarySubTitle": "الفئة"
+  },
+  "contactus": {
+    "title": "اتصل",
+    "subtitle": "بنا",
+    "componentTitle": "اتصل بنا"
+  },
+  "contactForm": {
+    "getIn": "تواصل",
+    "touch": "معنا",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "guest": "عدد الضيوف",
+    "guest1": "ضيف واحد",
+    "guest2": "ضيفان",
+    "guest3": "3 ضيوف",
+    "guest4plus": "4+ ضيوف",
+    "message": "اكتب رسالتك هنا...",
+    "terms": "شاركنا في صياغة رأس المال المبدئي. طور تجربة المستخدم بشكل تدريجي",
+    "submit": "اطلب طعامك"
+  }
+}
