@@ -53,7 +53,6 @@ export default async function RootLayout({
         <Suspense fallback={null}>
           <NextIntlClientProvider messages={message}>
             <GlobalProvider>{children}</GlobalProvider>
-
             <GotoWhatspp />
             <GoToTop />
             <Footer />

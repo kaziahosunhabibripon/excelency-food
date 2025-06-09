@@ -44,7 +44,7 @@ export default function VideoModal({ isOpen, onClose, videoUrl }) {
     <div className="fixed inset-0  flex items-center justify-center z-50 p-4 animate-in fade-in duration-300">
       <div
         ref={modalRef}
-        className="relative max-w-xl w-full mx-auto animate-in zoom-in-95 duration-300"
+        className="relative max-w-4xl w-full mx-auto animate-in zoom-in-95 duration-300"
       >
         {/* Close Button */}
         <button

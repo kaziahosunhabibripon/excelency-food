@@ -31,7 +31,7 @@ const LanguageSwitcher = () => {
       className="text-white bg-transparent px-2 rounded border border-transparent 
            hover:border-white  shadow-lg transition duration-200 cursor-pointer"
     >
-      {locale === "en" ? "English" : "عربي"}
+      {locale === "en" ? "عربي" : "English"}
     </button>
   );
 };

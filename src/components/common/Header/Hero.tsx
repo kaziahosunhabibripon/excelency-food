@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowDown } from "react-feather";
+import { ArrowDown, ArrowUp } from "react-feather";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslations } from "next-intl";
@@ -81,7 +81,7 @@ const Hero = () => {
             role="button"
             tabIndex={0}
             onClick={handleScroll}
-            className="bg-brand cursor-pointer text-white px-8 py-3 hover:bg-orange-700 transition-colors flex justify-between items-center gap-2"
+            className="bg-brand cursor-pointer text-white px-8 py-3 hover:bg-brand transition-colors flex justify-between items-center gap-2"
           >
             <ArrowDown className="animate-float-item-one" />
             <span className="uppercase">{t("Hero.button")}</span>
@@ -91,10 +91,10 @@ const Hero = () => {
             role="button"
             tabIndex={0}
             onClick={() => setIsOpen(true)}
-            className="bg-brand cursor-pointer text-white px-8 py-3 hover:bg-orange-700 transition-colors flex justify-between items-center gap-2"
+            className="bg-brand cursor-pointer text-white px-8 py-3 hover:bg-brand transition-colors flex justify-between items-center gap-2"
           >
-            <ArrowDown className="animate-float-item-one" />
-            <span className="uppercase">Watch Vidoes</span>
+            <ArrowUp className="animate-float-item-one" />
+            <span className="uppercase">{t("Hero.watch")}</span>
           </button>
           <VideoModal
             isOpen={isOpen}
