@@ -360,12 +360,14 @@ const Navbar = ({ from = "" }) => {
             )}
             <ShoppingCart className="w-5 h-5 text-white cursor-pointer" />
           </div>
-          {user ? (
+
+          {user?.userId ? (
             <ProfileDropdown />
           ) : (
             <User
               onClick={handleAuthRedirect}
               className="w-5 h-5 text-white cursor-pointer"
+              aria-label="Login"
             />
           )}
         </div>

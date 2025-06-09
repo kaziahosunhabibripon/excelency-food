@@ -258,7 +258,7 @@ const OrderTrackingComponent = () => {
 
         {/* Modal */}
         {isModalOpen && selectedOrder && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+          <div className="fixed inset-0 bg-slate-900 bg-opacity-10 flex items-center justify-center p-4 z-50">
             <div className="bg-white rounded-lg max-w-4xl w-full max-h-screen overflow-y-auto">
               {/* Modal Header */}
               <div className="flex justify-between items-center p-6">

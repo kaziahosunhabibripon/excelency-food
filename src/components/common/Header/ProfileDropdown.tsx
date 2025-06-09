@@ -13,7 +13,7 @@ import { getDefaultAvatarText } from "@/utils/appHelpers";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks/hooks";
 import { requestForLogout } from "@/helpers/restApiRequest";
 
-const ProfileDropdown = () => {
+const ProfileDropdown: React.FC = () => {
   const router = useRouter();
   const dispatch = useAppDispatch();
   const dropdownRef = useRef(null);
@@ -100,19 +100,29 @@ const ProfileDropdown = () => {
               <p className="text-12 text-border-dark truncate">{email}</p>
             </div>
 
-            <Link
-              href="/help"
-              className="flex items-center px-4 py-2 text-sm text-border-dark "
-            >
-              <HelpCircle className="mr-3 h-4 w-4 text-gray-500 dark:text-gray-400" />
-              Help Center
-            </Link>
+            {user?.userId ? (
+              <Link
+                href="/tracking"
+                className="flex items-center px-4 py-2 text-sm text-border-dark"
+              >
+                <HelpCircle className="mr-3 h-4 w-4 text-brand" />
+                My Order List
+              </Link>
+            ) : (
+              <Link
+                href="/help"
+                className="flex items-center px-4 py-2 text-sm text-border-dark"
+              >
+                <HelpCircle className="mr-3 h-4 w-4 text-brand" />
+                Help
+              </Link>
+            )}
 
             <div className="border-t border-gray-200"></div>
 
             <button
               onClick={() => handleLogout()}
-              className="flex w-full items-center px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-gray-200"
+              className="flex w-full items-center px-4 py-2 text-sm text-brand  hover:bg-gray-200"
             >
               <LogOut className="mr-3 h-4 w-4" />
               Logout
