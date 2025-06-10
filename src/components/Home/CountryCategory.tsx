@@ -26,15 +26,35 @@ const CountryCategory: React.FC<CountryCategoryProps> = ({
 
   const { data: foodsData, isLoading } = useGetAllFoodsQuery({});
 
+  // Initialize AOS only once
   useEffect(() => {
     AOS.init({ offset: 120, duration: 2000, easing: "ease-out" });
-  }, []);
+  }, []); // Empty dependency array - runs only once
+
+  // Handle URL hash and country selection when data is available
+  useEffect(() => {
+    if (foodsData?.group) {
+      // Check if there's a country in the URL hash
+      const hashCountry = window.location.hash.replace("#", "");
+      if (hashCountry && hashCountry !== "countryFlags") {
+        // Find the country in the data and select it
+        const country = foodsData.group.find(
+          (c) => c.name.toLowerCase() === hashCountry.toLowerCase()
+        );
+        if (country) {
+          handleCountrySelect(country);
+        }
+      }
+    }
+  }, [foodsData?.group]); // Only depend on the group array
 
   const handleCountrySelect = (country) => {
     setSelectedCountry(country?.name);
     onSelectCountry(country?.name);
   };
+
   const t = useTranslations();
+
   return (
     <div
       className="px-8 md:px-0 pt-16 pb-2 bg-[#f2f2f25b]"
@@ -63,6 +83,7 @@ const CountryCategory: React.FC<CountryCategoryProps> = ({
                 key={country.id}
                 className="w-[120px] cursor-pointer p-2 rounded-md transition-all duration-300 ease-in-out"
                 onClick={() => handleCountrySelect(country)}
+                data-country={country.name}
               >
                 <div
                   className={`${
@@ -107,6 +128,7 @@ const CountryCategory: React.FC<CountryCategoryProps> = ({
                   role="button"
                   tabIndex={0}
                   onClick={() => handleCountrySelect(country)}
+                  data-country={country.name}
                   className={`bg-[rgba(235,179,38,0.57)] ${
                     selectedCountry === country.name
                       ? "border-2 shadow-2xl border-red-400"
@@ -115,7 +137,7 @@ const CountryCategory: React.FC<CountryCategoryProps> = ({
                 >
                   <div className="relative w-10 h-10 mb-1">
                     <Image
-                      src={getImageUrl(country.image)}
+                      src={getImageUrl(country.image) || "/placeholder.svg"}
                       alt={country.name}
                       width={400}
                       height={400}

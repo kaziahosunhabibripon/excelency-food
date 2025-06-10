@@ -8,6 +8,7 @@ import { getAllFoodsData } from "@/helpers/restApiRequest";
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
+import { scrollToCountry } from "@/utils/scroll";
 
 interface CountryData {
   group: { id: number; name: string }[];
@@ -39,6 +40,12 @@ const Footer = () => {
   useEffect(() => {
     handleFoodsData();
   }, []);
+
+  // Handle country click in footer
+  const handleCountryClick = (countryName: string, e: React.MouseEvent) => {
+    e.preventDefault();
+    scrollToCountry(countryName);
+  };
 
   return (
     <footer
@@ -104,12 +111,13 @@ const Footer = () => {
               <ul className="space-y-3">
                 {countryData.group.map((item) => (
                   <li key={item.id}>
-                    <Link
-                      href="#"
-                      className="text-gray-400 hover:text-[#ff6b2c] transition-colors"
+                    <a
+                      href="#countryFlags"
+                      className="text-gray-400 hover:text-[#ff6b2c] transition-colors cursor-pointer"
+                      onClick={(e) => handleCountryClick(item.name, e)}
                     >
                       {item.name}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>
