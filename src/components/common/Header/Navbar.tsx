@@ -364,11 +364,16 @@ const Navbar = ({ from = "" }) => {
           {user?.userId ? (
             <ProfileDropdown />
           ) : (
-            <User
+            <button
               onClick={handleAuthRedirect}
-              className="w-5 h-5 text-white cursor-pointer"
-              aria-label="Login"
-            />
+              className="text-white p-1 rounded-lg flex items-center justify-between gap-2 border border-brand shadow cursor-pointer hover:bg-transparent animate-pulse hover:shadow-xl hover:shadow-brand hover:-translate-y-1 hover:scale-105 transition-all duration-500 ease-out"
+            >
+              Login
+              <User
+                className="w-5 h-5 text-white cursor-pointer"
+                aria-label="Login"
+              />
+            </button>
           )}
         </div>
       </div>
